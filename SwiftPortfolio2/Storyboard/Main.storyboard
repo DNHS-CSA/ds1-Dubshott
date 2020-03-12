@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nif-dh-cWH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ac1-W6-ytS">
+            <objects>
+                <viewController id="gzv-ZE-DVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c8U-pa-yld">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vRD-g9-rPB">
+                                <rect key="frame" x="0.0" y="357" width="414" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mc-Tf-kb2">
+                                <rect key="frame" x="77" y="300" width="261" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULA-pe-3VX">
+                                <rect key="frame" x="33" y="398" width="139" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="35"/>
+                                <state key="normal" title="Square">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9hU-mS-Cs5" kind="show" id="OTo-Rm-sE9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbK-cN-Gql">
+                                <rect key="frame" x="33" y="468" width="139" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="35"/>
+                                <state key="normal" title="Pythag">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="htG-7i-4Pk" kind="show" id="eFq-vB-Dp7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="tPT-LU-pzX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hJ2-nK-PEL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ada-qd-QoC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113.0434782608697" y="81.696428571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="86N-Lv-HUq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nif-dh-cWH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhW-LT-gSV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gzv-ZE-DVC" kind="relationship" relationship="rootViewController" id="yOX-Uf-npx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grF-Qz-onB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202.89855072463769" y="81.696428571428569"/>
+        </scene>
+        <!--SquareViewController-->
+        <scene sceneID="Cpl-AG-RgO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Square" referencedIdentifier="SquareViewController" id="9hU-mS-Cs5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fGx-Ig-8d2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FQa-NX-RFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1663" y="61"/>
+        </scene>
+        <!--PythagorasViewController-->
+        <scene sceneID="Ruw-f9-g4Y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pythagoras" referencedIdentifier="PythagorasViewController" id="htG-7i-4Pk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zHD-Br-ALz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11Z-GG-S9Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1693" y="96"/>
+        </scene>
+    </scenes>
+</document>
