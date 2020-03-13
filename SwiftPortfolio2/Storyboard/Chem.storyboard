@@ -82,7 +82,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateWithSender:" destination="3f1-FK-aq5" eventType="touchUpInside" id="N5v-ag-YKL"/>
+                                    <action selector="calculateWithSender:" destination="3f1-FK-aq5" eventType="touchUpInside" id="7SG-NS-R9G"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="= q" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fJ-iw-HJ2">
@@ -105,10 +105,10 @@
                         <viewLayoutGuide key="safeArea" id="q2k-X7-4Ep"/>
                     </view>
                     <connections>
-                        <outlet property="deltaTemp" destination="iWe-O4-KUp" id="HsQ-mR-I4o"/>
-                        <outlet property="mass" destination="lmN-bt-ccK" id="Xs5-Tl-PpC"/>
-                        <outlet property="q" destination="zyO-i4-dPN" id="ZRe-lu-xKQ"/>
-                        <outlet property="specificHeat" destination="L57-tD-rS7" id="ato-fW-ByC"/>
+                        <outlet property="deltaTemp" destination="iWe-O4-KUp" id="Kx2-v3-SHa"/>
+                        <outlet property="mass" destination="lmN-bt-ccK" id="8tt-jU-bhM"/>
+                        <outlet property="q" destination="zyO-i4-dPN" id="5dR-oI-Sf1"/>
+                        <outlet property="specificHeat" destination="L57-tD-rS7" id="wHh-LT-h12"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IUe-Du-ZEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
