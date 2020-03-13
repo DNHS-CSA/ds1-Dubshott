@@ -48,7 +48,19 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="htG-7i-4Pk" kind="show" id="eFq-vB-Dp7"/>
+                                    <segue destination="vNw-eP-FHV" kind="show" id="ivK-5S-EHe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46S-ko-1iU">
+                                <rect key="frame" x="33" y="536" width="139" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="35"/>
+                                <state key="normal" title="Chem">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="58S-hS-JwT" kind="show" id="iXX-f2-1RN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -79,25 +91,35 @@
             </objects>
             <point key="canvasLocation" x="202.89855072463769" y="81.696428571428569"/>
         </scene>
-        <!--SquareViewController-->
+        <!--Square-->
         <scene sceneID="Cpl-AG-RgO">
             <objects>
-                <viewControllerPlaceholder storyboardName="Square" referencedIdentifier="SquareViewController" id="9hU-mS-Cs5" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Square" id="9hU-mS-Cs5" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="fGx-Ig-8d2"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQa-NX-RFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1663" y="61"/>
         </scene>
-        <!--PythagorasViewController-->
-        <scene sceneID="Ruw-f9-g4Y">
+        <!--Pythagoras-->
+        <scene sceneID="r8Y-jO-9Rp">
             <objects>
-                <viewControllerPlaceholder storyboardName="Pythagoras" referencedIdentifier="PythagorasViewController" id="htG-7i-4Pk" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="zHD-Br-ALz"/>
+                <viewControllerPlaceholder storyboardName="Pythagoras" id="vNw-eP-FHV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="en4-Gy-1nh"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="11Z-GG-S9Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mj2-dC-NDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1693" y="96"/>
+            <point key="canvasLocation" x="1674" y="97"/>
+        </scene>
+        <!--Chem-->
+        <scene sceneID="gfs-WE-aCE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chem" id="58S-hS-JwT" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xV9-dY-SvG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVO-AO-oyg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652" y="143"/>
         </scene>
     </scenes>
 </document>

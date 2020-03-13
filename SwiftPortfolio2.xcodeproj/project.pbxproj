@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0554F0241BDF87007DA042 /* ChemCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0554EF241BDF87007DA042 /* ChemCalculator.swift */; };
+		0C0554F2241BE15D007DA042 /* Chem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0554F1241BE15D007DA042 /* Chem.storyboard */; };
+		0C0554F4241BE6BB007DA042 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0554F3241BE6BB007DA042 /* Pythagoras.storyboard */; };
 		0CBCABFF241A951E00574A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCABFE241A951E00574A45 /* AppDelegate.swift */; };
 		0CBCAC01241A951E00574A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCAC00241A951E00574A45 /* SceneDelegate.swift */; };
 		0CBCAC03241A951E00574A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCAC02241A951E00574A45 /* ViewController.swift */; };
 		0CBCAC08241A951F00574A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC07241A951F00574A45 /* Assets.xcassets */; };
 		0CBCAC0B241A951F00574A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC09241A951F00574A45 /* LaunchScreen.storyboard */; };
-		0CBCAC14241A963D00574A45 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC13241A963D00574A45 /* Pythagoras.storyboard */; };
 		0CBCAC16241A964500574A45 /* Square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC15241A964500574A45 /* Square.storyboard */; };
 		0CBCAC18241A967E00574A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC17241A967E00574A45 /* Main.storyboard */; };
 		0CBCAC1B241A96CF00574A45 /* PythController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCAC1A241A96CF00574A45 /* PythController.swift */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0554EF241BDF87007DA042 /* ChemCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemCalculator.swift; sourceTree = "<group>"; };
+		0C0554F1241BE15D007DA042 /* Chem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chem.storyboard; sourceTree = "<group>"; };
+		0C0554F3241BE6BB007DA042 /* Pythagoras.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagoras.storyboard; sourceTree = "<group>"; };
 		0CBCABFB241A951E00574A45 /* SwiftPortfolio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPortfolio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBCABFE241A951E00574A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBCAC00241A951E00574A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +33,6 @@
 		0CBCAC07241A951F00574A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBCAC0A241A951F00574A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBCAC0C241A951F00574A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CBCAC13241A963D00574A45 /* Pythagoras.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagoras.storyboard; sourceTree = "<group>"; };
 		0CBCAC15241A964500574A45 /* Square.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Square.storyboard; sourceTree = "<group>"; };
 		0CBCAC17241A967E00574A45 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0CBCAC1A241A96CF00574A45 /* PythController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythController.swift; sourceTree = "<group>"; };
@@ -85,10 +89,11 @@
 		0CBCAC12241A961E00574A45 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0CBCAC13241A963D00574A45 /* Pythagoras.storyboard */,
 				0CBCAC15241A964500574A45 /* Square.storyboard */,
 				0CBCAC17241A967E00574A45 /* Main.storyboard */,
 				0CBCAC09241A951F00574A45 /* LaunchScreen.storyboard */,
+				0C0554F1241BE15D007DA042 /* Chem.storyboard */,
+				0C0554F3241BE6BB007DA042 /* Pythagoras.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				0CBCAC1A241A96CF00574A45 /* PythController.swift */,
 				0CBCAC1C241A96DA00574A45 /* SquareController.swift */,
+				0C0554EF241BDF87007DA042 /* ChemCalculator.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -179,11 +185,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0554F4241BE6BB007DA042 /* Pythagoras.storyboard in Resources */,
 				0CBCAC0B241A951F00574A45 /* LaunchScreen.storyboard in Resources */,
+				0C0554F2241BE15D007DA042 /* Chem.storyboard in Resources */,
 				0CBCAC16241A964500574A45 /* Square.storyboard in Resources */,
 				0CBCAC08241A951F00574A45 /* Assets.xcassets in Resources */,
 				0CBCAC18241A967E00574A45 /* Main.storyboard in Resources */,
-				0CBCAC14241A963D00574A45 /* Pythagoras.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +245,7 @@
 			files = (
 				0CBCAC1B241A96CF00574A45 /* PythController.swift in Sources */,
 				0CBCAC03241A951E00574A45 /* ViewController.swift in Sources */,
+				0C0554F0241BDF87007DA042 /* ChemCalculator.swift in Sources */,
 				0CBCABFF241A951E00574A45 /* AppDelegate.swift in Sources */,
 				0CBCAC1D241A96DA00574A45 /* SquareController.swift in Sources */,
 				0CBCAC01241A951E00574A45 /* SceneDelegate.swift in Sources */,

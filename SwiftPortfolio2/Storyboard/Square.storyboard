@@ -10,7 +10,7 @@
         <!--Square Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController storyboardIdentifier="SquareViewController" id="01J-lp-oVM" customClass="SquareController" customModule="SwiftPortfolio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="01J-lp-oVM" customClass="SquareController" customModule="SwiftPortfolio2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
