@@ -19,6 +19,18 @@
 		0CBCAC18241A967E00574A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCAC17241A967E00574A45 /* Main.storyboard */; };
 		0CBCAC1B241A96CF00574A45 /* PythController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCAC1A241A96CF00574A45 /* PythController.swift */; };
 		0CBCAC1D241A96DA00574A45 /* SquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCAC1C241A96DA00574A45 /* SquareController.swift */; };
+		21379B89242E77E1002870D5 /* ClickerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21379B88242E77E1002870D5 /* ClickerGame.swift */; };
+		21379B8B242E7873002870D5 /* ClickerMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21379B8A242E7873002870D5 /* ClickerMenu.storyboard */; };
+		21379B8E242E7C8A002870D5 /* ClickerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21379B8D242E7C8A002870D5 /* ClickerGame.storyboard */; };
+		21379B91242E7F9F002870D5 /* One Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B90242E7F9F002870D5 /* One Dollar.png */; };
+		21379B93242E7FB1002870D5 /* 2 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B92242E7FB1002870D5 /* 2 Dollar.png */; };
+		21379B95242E7FBA002870D5 /* 5 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B94242E7FBA002870D5 /* 5 Dollar.png */; };
+		21379B97242E7FC9002870D5 /* 10 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B96242E7FC9002870D5 /* 10 Dollar.png */; };
+		21379B9B242E7FF0002870D5 /* 50 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B98242E7FEF002870D5 /* 50 Dollar.png */; };
+		21379B9C242E7FF0002870D5 /* 100 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B99242E7FEF002870D5 /* 100 Dollar.png */; };
+		21379B9D242E7FF0002870D5 /* 20 Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21379B9A242E7FF0002870D5 /* 20 Dollar.png */; };
+		21379B9F242E81CC002870D5 /* ClickerWorkers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21379B9E242E81CC002870D5 /* ClickerWorkers.storyboard */; };
+		21379BA1242E81D9002870D5 /* ClickerUpgrades.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21379BA0242E81D9002870D5 /* ClickerUpgrades.storyboard */; };
 		6378459AB32F124553CEB9E2 /* Pods_SwiftPortfolio2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A304AB1F2591DCC1E907A46 /* Pods_SwiftPortfolio2.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +49,18 @@
 		0CBCAC17241A967E00574A45 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0CBCAC1A241A96CF00574A45 /* PythController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythController.swift; sourceTree = "<group>"; };
 		0CBCAC1C241A96DA00574A45 /* SquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareController.swift; sourceTree = "<group>"; };
+		21379B88242E77E1002870D5 /* ClickerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGame.swift; sourceTree = "<group>"; };
+		21379B8A242E7873002870D5 /* ClickerMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClickerMenu.storyboard; sourceTree = "<group>"; };
+		21379B8D242E7C8A002870D5 /* ClickerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClickerGame.storyboard; sourceTree = "<group>"; };
+		21379B90242E7F9F002870D5 /* One Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "One Dollar.png"; sourceTree = "<group>"; };
+		21379B92242E7FB1002870D5 /* 2 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 Dollar.png"; sourceTree = "<group>"; };
+		21379B94242E7FBA002870D5 /* 5 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 Dollar.png"; sourceTree = "<group>"; };
+		21379B96242E7FC9002870D5 /* 10 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10 Dollar.png"; sourceTree = "<group>"; };
+		21379B98242E7FEF002870D5 /* 50 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50 Dollar.png"; sourceTree = "<group>"; };
+		21379B99242E7FEF002870D5 /* 100 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "100 Dollar.png"; sourceTree = "<group>"; };
+		21379B9A242E7FF0002870D5 /* 20 Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20 Dollar.png"; sourceTree = "<group>"; };
+		21379B9E242E81CC002870D5 /* ClickerWorkers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClickerWorkers.storyboard; sourceTree = "<group>"; };
+		21379BA0242E81D9002870D5 /* ClickerUpgrades.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClickerUpgrades.storyboard; sourceTree = "<group>"; };
 		9A304AB1F2591DCC1E907A46 /* Pods_SwiftPortfolio2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPortfolio2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F186DBB7EBD184534B89A1C7 /* Pods-SwiftPortfolio2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio2.release.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio2/Pods-SwiftPortfolio2.release.xcconfig"; sourceTree = "<group>"; };
 		F2830216ECB149313551F18F /* Pods-SwiftPortfolio2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio2.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio2/Pods-SwiftPortfolio2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +99,7 @@
 		0CBCABFD241A951E00574A45 /* SwiftPortfolio2 */ = {
 			isa = PBXGroup;
 			children = (
+				21379B8F242E7F5E002870D5 /* Images */,
 				0CBCAC12241A961E00574A45 /* Storyboard */,
 				0CBCAC19241A96BA00574A45 /* ViewController */,
 				0CBCABFE241A951E00574A45 /* AppDelegate.swift */,
@@ -94,6 +119,7 @@
 				0CBCAC09241A951F00574A45 /* LaunchScreen.storyboard */,
 				0C0554F1241BE15D007DA042 /* Chem.storyboard */,
 				0C0554F3241BE6BB007DA042 /* Pythagoras.storyboard */,
+				21379B8C242E7C6F002870D5 /* ClickerGame */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -104,8 +130,34 @@
 				0CBCAC1A241A96CF00574A45 /* PythController.swift */,
 				0CBCAC1C241A96DA00574A45 /* SquareController.swift */,
 				0C0554EF241BDF87007DA042 /* ChemCalculator.swift */,
+				21379B88242E77E1002870D5 /* ClickerGame.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		21379B8C242E7C6F002870D5 /* ClickerGame */ = {
+			isa = PBXGroup;
+			children = (
+				21379B8A242E7873002870D5 /* ClickerMenu.storyboard */,
+				21379B8D242E7C8A002870D5 /* ClickerGame.storyboard */,
+				21379B9E242E81CC002870D5 /* ClickerWorkers.storyboard */,
+				21379BA0242E81D9002870D5 /* ClickerUpgrades.storyboard */,
+			);
+			path = ClickerGame;
+			sourceTree = "<group>";
+		};
+		21379B8F242E7F5E002870D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				21379B9A242E7FF0002870D5 /* 20 Dollar.png */,
+				21379B98242E7FEF002870D5 /* 50 Dollar.png */,
+				21379B99242E7FEF002870D5 /* 100 Dollar.png */,
+				21379B96242E7FC9002870D5 /* 10 Dollar.png */,
+				21379B94242E7FBA002870D5 /* 5 Dollar.png */,
+				21379B92242E7FB1002870D5 /* 2 Dollar.png */,
+				21379B90242E7F9F002870D5 /* One Dollar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		5C66C862D22FD7876F9FD79B /* Pods */ = {
@@ -187,10 +239,21 @@
 			files = (
 				0C0554F4241BE6BB007DA042 /* Pythagoras.storyboard in Resources */,
 				0CBCAC0B241A951F00574A45 /* LaunchScreen.storyboard in Resources */,
+				21379B9D242E7FF0002870D5 /* 20 Dollar.png in Resources */,
+				21379BA1242E81D9002870D5 /* ClickerUpgrades.storyboard in Resources */,
+				21379B9C242E7FF0002870D5 /* 100 Dollar.png in Resources */,
+				21379B91242E7F9F002870D5 /* One Dollar.png in Resources */,
+				21379B97242E7FC9002870D5 /* 10 Dollar.png in Resources */,
 				0C0554F2241BE15D007DA042 /* Chem.storyboard in Resources */,
 				0CBCAC16241A964500574A45 /* Square.storyboard in Resources */,
+				21379B95242E7FBA002870D5 /* 5 Dollar.png in Resources */,
+				21379B93242E7FB1002870D5 /* 2 Dollar.png in Resources */,
+				21379B9F242E81CC002870D5 /* ClickerWorkers.storyboard in Resources */,
+				21379B8E242E7C8A002870D5 /* ClickerGame.storyboard in Resources */,
+				21379B9B242E7FF0002870D5 /* 50 Dollar.png in Resources */,
 				0CBCAC08241A951F00574A45 /* Assets.xcassets in Resources */,
 				0CBCAC18241A967E00574A45 /* Main.storyboard in Resources */,
+				21379B8B242E7873002870D5 /* ClickerMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +311,7 @@
 				0C0554F0241BDF87007DA042 /* ChemCalculator.swift in Sources */,
 				0CBCABFF241A951E00574A45 /* AppDelegate.swift in Sources */,
 				0CBCAC1D241A96DA00574A45 /* SquareController.swift in Sources */,
+				21379B89242E77E1002870D5 /* ClickerGame.swift in Sources */,
 				0CBCAC01241A951E00574A45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

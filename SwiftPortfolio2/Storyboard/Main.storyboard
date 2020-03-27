@@ -63,6 +63,18 @@
                                     <segue destination="58S-hS-JwT" kind="show" id="iXX-f2-1RN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8g-m7-Hpy">
+                                <rect key="frame" x="33" y="602" width="139" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                <state key="normal" title="Clicker">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mH3-48-dIN" kind="show" id="b0E-n5-6jc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="tPT-LU-pzX"/>
@@ -120,6 +132,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVO-AO-oyg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1652" y="143"/>
+        </scene>
+        <!--ClickerMenu-->
+        <scene sceneID="dQj-61-Zlk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ClickerMenu" id="mH3-48-dIN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QiY-Sk-ef6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azg-Vd-QOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661" y="190"/>
         </scene>
     </scenes>
 </document>
